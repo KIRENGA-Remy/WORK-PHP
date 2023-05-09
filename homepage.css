@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(36, 88, 88);
+    color: #fff;
+    min-height: 100px;
+}
+#nav1{
+    width: 25%;
+    background-color: rgb(17, 89, 178);
+    min-height: 200px;
+    color: #fff;
+}
+#nav2{
+    width: 25%;
+    min-height: 200px;
+    background-color: rgb(17, 89, 178);
+    color: #fff;
+}
+main{
+    background-color: aliceblue;
+    min-height: 200px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.4em;
+}
+footer{
+    color: #fff;
+      min-height: 100px;
+     background-color: #000;
+}
+#nav1, #nav2{
+    float: left;
+}
+main{
+    float: left;
+}
